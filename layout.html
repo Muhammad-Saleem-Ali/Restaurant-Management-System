@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Layout</title>
+</head>
+
+<body>
+    <!-- <div  class="click"> -->
+    <div class="bg">
+        <nav id="change" class="navbar">
+            <div  class="container">
+                <div class="main">
+                        <input type="checkbox" id="check">
+                        <label for="check">
+                            <i class="fa fa-bars" id="btn"></i>
+                            <i class="fa fa-times" id="cancel"></i>
+                        </label>
+                        <div id="change2" class="sidebar">
+                            <header>Drawer</header>
+                            <ul>
+                                <li class="side_list"><a href="#"><i class="fa fa-qrcode"></i>Dashboard</a></li>
+                                <li class="side_list"><a href="#"><i class="fa fa-link"></i>shorcuts</a></li>
+                                <li class="side_list"><a href="#"><i class="fa fa-stream"></i>overviews</a></li>
+                                <li class="side_list"><a href="#"><i class="fa fa-calendar-week"></i>events</a></li>
+                                <li class="side_list"><a href="#"><i class="fa fa-question-circle"></i>about</a></li>
+                                <li class="side_list"><a href="#"><i class="fa fa-sliders-h"></i>services</a></li>
+                                <li class="side_list"><a href="#"><i class="fa fa-envelope"></i>contact</a></li>
+
+                            </ul>
+                        </div>
+
+                        <div class="logo"> Resturant</div>
+                        <div class="items">
+                            <ul>
+                                <li class="active"><a href="Home.html">Home</a></li>
+                                <li><a href="aboutus1.html" target="_blank">About</a></li>
+                                <li><a href="services.html" target="_blank">Service</a></li>
+                                <li><a href="Foodmenu.html" target="_blank">Food Menu</a></li>
+                                <li><a href="blog.html" target="_blank">Blog</a></li>
+                                <li><a href="contactus.html" target="_blank">Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="icon">
+                            <a href="login.html" target="_blank"><i class='fa fa-shopping-cart'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    </div>
+    <section class="showcase">
+        <div class="s">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h1>Lorem, ipsum dolor.</h1>
+            <a href="#"><button>Shop Now</button></a>
+            <!-- <a href="#"><button>Read More</button></a> -->
+        </div>
+    </section>
+
+
+
+
+    <section class="about-main">
+        <div class="container">
+            <div class="main">
+                <div class="content">
+                    <div class="content-img"><img src="./imges/man.png" alt=""></div>
+                    <h4>Madison Restaurant</h4>
+
+                    <div class="content-h3">
+                        <h3>About Us</h3>
+                    </div>
+                    <div class="content-p">
+                        <p id="demo">Proin eget tortor risus. Proin eget tortor risus. Mauris blandit aliquet elit,
+                            eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget consectetur sed,
+                            convallis at tellus</p>
+                        <p>Proin eget tortor risus. Proin eget tortor risus. Mauris blandit aliquet elit, eget
+                            tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget consectetur sed, convallis
+                            at tellus. Pellentesque in ipsum id orci porta dapibus.</p>
+                        <a class="content-btn" href="#">Read More</a>
+                    </div>
+
+                </div>
+                <div class="picture"><img src="./imges/image-1.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="about-main2">
+        <div class="container">
+            <div class="main-2">
+                <div class="main-img">
+                    <div class="about-img1">
+                        <img src="./imges/imges2.jpg" alt="">
+                    </div>
+                    <div class="about-img2">
+                        <div class="img2-1"><img src="./imges/food-2.jpg" alt=""></div>
+                        <div class="img2-2"><img src="./imges/food-6.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="content-2">
+                    <img src="./imges/man.png" alt="">
+                    <div class="content2-h3">
+                        <h3>Special Dishes</h3>
+                    </div>
+                    <h4>Hot Steak With Sauce</h4>
+                    <div class="content2-p">
+                        <p>Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                            Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Cras
+                            ultricies ligula sed magna dictum porta.</p>
+                        <em>$20</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <div id="hide" class="layout">
+        <section class="layout-option">
+            <h3>Layout option</h3>
+        </section>
+        <section class="layout-option2">
+            <div class="layout-div">
+            <div class="layout-dives">
+                <div class="header-option">
+                    <div class="header-btn">
+                        <button onclick="fixed()">on</button>
+                    </div>
+                    <div class="header-h5">
+                        <h5>Fixed Header</h5>
+                        <p>Makes the header top fixed, always visible!</p>
+                    </div>
+
+                </div>
+                <div class="sidebar-option">
+                    <div class="sidebar-btn">
+                        <button>on</button>
+                    </div>
+                    <div class="sidebar-h5">
+                        <h5>Fixed Sidebar</h5>
+                        <p>Makes the sidebar left fixed, always visible!</p>
+                    </div>
+                </div>
+                <div class="footer-option">
+                    <div class="footer-btn">
+                        <button>on</button>
+                    </div>
+                    <div class="footer-h5">
+                        <h5>Fixed Sidebar</h5>
+                        <p>Makes the sidebar left fixed, always visible!</p>
+                    </div>
+                </div>
+            </div>                
+            </div>
+        </section>
+        <section class="header-color">
+            <h3>Header option</h3>
+        </section>
+        <section class="colorchange">
+            <div class="colorchange1">
+                <div class="colorchange2">
+                    <h4>Choose color scheme</h4>
+                    <div class="main-colordiv">
+                        <div class="color-1" onclick="color1()"></div>
+                        <div class="color-2" onclick="color2()"></div>
+                        <div class="color-3" onclick="color3()"></div>
+                        <div class="color-4" onclick="color4()"></div>
+                        <div class="color-5" onclick="color5()"></div>
+                        <div class="color-6" onclick="color6()"></div>
+                        <div class="color-7" onclick="color7()"></div>
+                        <div class="color-8" onclick="color8()"></div>
+                        <div class="color-9" onclick="color9()"></div>
+                        <div class="color-10" onclick="color10()"></div>
+
+                        <div class="color-line"></div>
+
+                        <div class="color-11" onclick="color11()"></div>
+                        <div class="color-12" onclick="color12()"></div>
+                        <div class="color-13" onclick="color13()"></div>
+                        <div class="color-14" onclick="color14()"></div>
+                        <div class="color-15" onclick="color15()"></div>
+                        <div class="color-16" onclick="color16()"></div>
+                        <div class="color-17" onclick="color17()"></div>
+                        <div class="color-18" onclick="color18()"></div>
+                        <div class="color-19" onclick="color19()"></div>
+                        <div class="color-20" onclick="color20()"></div>
+                        <div class="color-21" onclick="color21()"></div>
+                        <div class="color-22" onclick="color22()"></div>
+                        <div class="color-23" onclick="color23()"></div>
+                        <div class="color-24" onclick="color24()"></div>
+                        <div class="color-25" onclick="color25()"></div>
+                        <div class="color-26" onclick="color26()"></div>
+                        <div class="color-27" onclick="color27()"></div>
+                        <div class="color-28" onclick="color28()"></div>
+                        <div class="color-29" onclick="color29()"></div>
+                        <div class="color-30" onclick="color30()"></div>
+                        <div class="color-31" onclick="color31()"></div>
+                        <div class="color-32" onclick="color32()"></div>
+                        <div class="color-33" onclick="color33()"></div>
+                        <div class="color-34" onclick="color34()"></div>
+                        <div class="color-35" onclick="color35()"></div>
+                        <div class="color-36" onclick="color36()"></div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sidenav-color">
+            <h3>Sidenav option</h3>
+        </section>
+        <section class="colorchange">
+            <div class="colorchange1">
+                <div class="colorchange2">
+                    <h4>Choose color scheme</h4>
+                    <div class="main-colordiv">
+                        <div class="color-1" onclick="col1()"></div>
+                        <div class="color-2" onclick="col2()"></div>
+                        <div class="color-3" onclick="col3()"></div>
+                        <div class="color-4" onclick="col4()"></div>
+                        <div class="color-5" onclick="col5()"></div>
+                        <div class="color-6" onclick="col6()"></div>
+                        <div class="color-7" onclick="col7()"></div>
+                        <div class="color-8" onclick="col8()"></div>
+                        <div class="color-9" onclick="col9()"></div>
+                        <div class="color-10" onclick="col10()"></div>
+
+                        <div class="color-line"></div>
+
+                        <div class="color-11" onclick="col11()"></div>
+                        <div class="color-12" onclick="col12()"></div>
+                        <div class="color-13" onclick="col13()"></div>
+                        <div class="color-14" onclick="col14()"></div>
+                        <div class="color-15" onclick="col15()"></div>
+                        <div class="color-16" onclick="col16()"></div>
+                        <div class="color-17" onclick="col17()"></div>
+                        <div class="color-18" onclick="col18()"></div>
+                        <div class="color-19" onclick="col19()"></div>
+                        <div class="color-20" onclick="col20()"></div>
+                        <div class="color-21" onclick="col21()"></div>
+                        <div class="color-22" onclick="col22()"></div>
+                        <div class="color-23" onclick="col23()"></div>
+                        <div class="color-24" onclick="col24()"></div>
+                        <div class="color-25" onclick="col25()"></div>
+                        <div class="color-26" onclick="col26()"></div>
+                        <div class="color-27" onclick="col27()"></div>
+                        <div class="color-28" onclick="col28()"></div>
+                        <div class="color-29" onclick="col29()"></div>
+                        <div class="color-30" onclick="col30()"></div>
+                        <div class="color-31" onclick="col31()"></div>
+                        <div class="color-32" onclick="col32()"></div>
+                        <div class="color-33" onclick="col33()"></div>
+                        <div class="color-34" onclick="col34()"></div>
+                        <div class="color-35" onclick="col35()"></div>
+                        <div class="color-36" onclick="col36()"></div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </div>
+    <!-- <p id="change">this text color changed</p> -->
+    <button id="show" class="display" type="button" onclick="myFunction()"><i class="fa fa-gear"></i></button>
+    <!-- <h3 id="sidebar">this is side bar</h3> -->
+    <!-- <h3 id="change2">this is side bar</h3> -->
+
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ut magni sequi eum vel illo provident beatae aliquid corporis quis, obcaecati veritatis pariatur. Ad animi non eligendi a aliquid temporibus repudiandae enim et officiis architecto tempora, nisi excepturi alias sequi iure asperiores quo. Sunt quam, ad, culpa illum dolores placeat fugit obcaecati, facere aliquid laudantium cum asperiores velit? Numquam, rem iste. Ea dolores ipsam veritatis eos illo autem neque suscipit consequuntur doloremque itaque similique est repudiandae inventore, id culpa nobis ducimus esse quaerat excepturi quidem! Culpa accusantium minus deserunt rerum quas dolorum neque eos porro, fuga corporis amet illum nemo doloribus ullam id, quis, sit recusandae perspiciatis temporibus. Necessitatibus excepturi, magni iusto cumque, cupiditate labore quasi voluptatum laborum illum odio facere odit delectus eligendi quidem blanditiis, suscipit molestias aut? Assumenda qui sunt dignissimos, sint dolor nihil nobis minima quasi ratione commodi recusandae enim quisquam, laboriosam fugiat et. Tempora perferendis aperiam voluptate, odio fugiat dolores. Magnam error sequi ea nesciunt, odit aut commodi nemo deleniti saepe ducimus corporis aperiam, ipsa excepturi voluptatem optio nobis sint? Dolore debitis voluptate praesentium ullam libero soluta odit asperiores? Iure vitae ex dolor repellat nobis, eveniet quisquam dicta similique blanditiis commodi, sint error aliquam? Dignissimos, iste dolorem accusantium exercitationem deleniti ducimus quo facere incidunt numquam tempore necessitatibus ea dolor, ut hic maiores nisi non nostrum quidem quos perspiciatis reprehenderit quibusdam. Repudiandae, fugit. Quo placeat sint excepturi modi laudantium rerum exercitationem, hic laborum beatae nemo mollitia ullam at dolore numquam! Earum, modi vel praesentium aspernatur odio dicta a atque dolor sed quae laboriosam! Non accusamus ut consectetur facilis aspernatur odio! Non, dolorum maiores sit ut aperiam saepe qui. Quis animi natus neque earum! Temporibus optio porro enim? Reprehenderit facilis, autem voluptate sed error qui voluptas cumque fugiat sapiente mollitia beatae labore asperiores unde adipisci consequuntur tenetur a! Eveniet libero iusto repudiandae amet fugit totam voluptatum nam laborum nobis consequatur ullam distinctio id quod, recusandae ducimus quibusdam dignissimos dicta natus, sequi maxime, enim deserunt possimus. Molestias, explicabo harum. Labore accusantium omnis aperiam doloribus nemo provident velit dolorum? Doloribus porro natus, nesciunt quas magnam suscipit alias ea quibusdam eos delectus veritatis impedit dicta aliquid totam facere aut nemo officia quam facilis quasi exercitationem odit placeat quo. Repellendus cum nam adipisci fugiat maxime harum. Est, ut delectus, inventore aliquid sint quam deserunt ab expedita repellendus maxime praesentium nihil. Repellat fugit, quis necessitatibus cum hic neque nobis ipsam fugiat. Vitae placeat quos incidunt, magnam libero nesciunt dolor voluptatum ullam voluptates. Ullam maxime delectus laboriosam omnis doloremque doloribus autem dolores sapiente beatae qui provident fugiat vitae, reprehenderit iure labore facere voluptates enim. Pariatur, nesciunt! Itaque culpa aliquam id omnis possimus! Modi adipisci deleniti commodi beatae qui ea laboriosam iste quos. Consectetur enim unde cum labore harum, laudantium neque at saepe, nemo cupiditate provident eum. Molestias dolore incidunt est quae similique ipsum ipsam ut magni totam sunt quaerat voluptates, quidem ipsa amet cumque nulla quo perspiciatis magnam tempora. Possimus a nostrum inventore ducimus, iure exercitationem eligendi, earum quos culpa ratione, assumenda provident porro.
+    </p>
+
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

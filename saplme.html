@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Layout</title>
+</head>
+
+<body>
+    <div id="hide" class="layout">
+        <section class="header-color">
+            <h3>Header option</h3>
+        </section>
+        <section class="colorchange">
+            <div class="colorchange1">
+                <div class="colorchange2">
+                <h4>Choose color scheme</h4>
+                <div class="main-colordiv">
+                    <div  class="color-1" onclick="color1()"></div>
+                    <div class="color-2 " onclick="color2()"></div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="sidenav-color">
+            <h3>Sidenav option</h3>
+        </section>
+        <section class="colorchange">
+            <div class="colorchange1">
+                <div class="colorchange2">
+                <h4>Choose color scheme</h4>
+                <div class="main-colordiv">
+                    <div class="color-1" onclick="col1()"></div>
+                    <div class="color-2" onclick="col2()"></div>
+           
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+
+
+    </div>
+    <p id="change">this text color changed</p>
+    <button id="show" class="display" type="button" onclick="myFunction()">display</button>
+<!-- <h3 id="sidebar">this is side bar</h3> -->
+<h3 id="change">this is side bar</h3>
+
+<script>
+    function myFunction() {
+   var c = document.getElementById("hide").style.display;
+    if (c == "block") {
+        document.getElementById("hide").style.display = "none";
+    }
+    else{
+        document.getElementById("hide").style.display = "block";
+    }
+  }
+
+  var a =  document.getElementsByClassName('change').style.background;
+  var b =  document.getElementByClassName('change').style.background;
+  function chancol(a , b) {
+    if (a == ) {
+        
+    }
+  }
+
+
+  function color1() {
+        document.getElementById('change').style.background= '#3f6ad8';
+       }
+       function color2() {
+        document.getElementById('change').style.background= '#6c757d';
+       }
+
+       function col1() {
+        document.getElementById('change2').style.background= '#3f6ad8';
+       }
+       function col2() {
+        document.getElementById('change2').style.background= '#6c757d';
+       }
+
+    
+</script>
+</body>
+
+</html>
